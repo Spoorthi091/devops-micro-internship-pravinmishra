@@ -14,9 +14,9 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
+| **Name** | Dudati Spoorthi |
+| **LinkedIn** | [https://www.linkedin.com/in/spoorthi-dudati-33aa09421/] |
+| **Location** | karimnagar,telangana|
 | **Background** | Cloud, DevOps & AI Consultant |
 | **Goal** | Train 10,000+ DevOps professionals |
 
