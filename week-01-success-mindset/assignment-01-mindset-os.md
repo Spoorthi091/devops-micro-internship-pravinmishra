@@ -32,8 +32,8 @@ You will reuse this in later weeks. So do it properly once.
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
+I believe that getting a good job is not the most important measure of success. Many people around me think that getting a high-paying job, earning a lot of money, and having a stable career means you are successful. I think those things are important, but they are not everything. For me, learning new things, becoming independent, enjoying what I do, and having a peaceful life are equally important. A person can earn less than others and still be successful if they are happy, continuously learning, and proud of the life they are building.
 
-Add your answer here...
 
 ---
 
