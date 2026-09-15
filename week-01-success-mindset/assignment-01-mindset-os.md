@@ -309,7 +309,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+I wrote down the important tasks, goals, worries, responsibilities, pending work, study plans, and other things that were in my mind. This helped me organize my thoughts and understand what I need to focus on.
 
 ---
 
@@ -326,20 +326,24 @@ Example:
 * Sun: Weekly review
 
 #### My Weekly Routine
-
-Add your answer here...
+Monday–Thursday: 1 hour of focused study/work
+Friday: Review pending tasks and complete unfinished work
+Saturday: DMI session and practical work
+Sunday: Weekly review, planning, and revision
+I wrote down the important tasks, goals, worries, responsibilities, pending work, study plans, and other things that were in my mind. This helped me organize my thoughts and understand what I need to focus on.
 
 ---
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
-
-Add your answer here...
+Monday–Thursday: 7:00 PM – 8:00 PM
+Saturday: 9:00PM – 11:00PM
+Sunday: 6:00 PM – 7:00 PM for review and planning
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+I will have four focused weekday sessions, one longer Saturday session, and one Sunday review session.
 
 ---
 
@@ -353,7 +357,14 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Keep my phone away or on silent during focus sessions.
+Avoid Instagram, YouTube, and other social media while studying.
+Use my laptop only for study and DMI-related work during focus time.
+Keep my study space clean and organized.
+Work on one task at a time instead of switching between multiple tasks.
+Take short breaks when needed so I do not lose focus.
+If I miss a session, I will not give up; I will continue with the next planned session.
+At the end of each week, I will check my progress and plan the next week.
 
 ---
 
@@ -361,28 +372,26 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that I can learn better when I have a clear plan and complete tasks step by step. I also understood that consistency is more important than trying to do everything at once.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+My biggest weakness is getting distracted and sometimes delaying tasks when I feel that they are difficult. I also tend to spend too much time thinking about the task instead of starting it.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will follow a 1-hour focused study session from Monday to Thursday, from 7:00 PM to 8:00 PM. During this time, I will keep my phone away and focus only on my DMI work or important learning tasks. Every Sunday, I will review my progress and plan the next week.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
-
-`Add your URL here`
+https://lnkd.in/p/g-nN4acj
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: https://lnkd.in/p/g-nN4acj  
+- Blog / Medium : https://medium.com/@dudatispoorthi/week-1-building-my-success-mindset-e857d24c584d?postPublishedType=initial  
 
 ---
 
