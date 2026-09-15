@@ -278,11 +278,19 @@ List topics only. No need to share numbers.
 * Spending tracker
 
 ## My Metrics
-Monday–Thursday: 1 hour of DMI work or technical learning
-Friday: Complete pending tasks and revise what I learned during the week
-Saturday: Dedicated DMI session and practical project work
-Sunday: Weekly review and planning for the next week
-Every week: Track my progress and keep my work organized on GitHub
+## My Metrics
+
+* Learning progress and new skills developed
+* Technical concepts understood and practiced
+* Projects completed and documented
+* GitHub contributions and portfolio growth
+* Certifications and courses completed
+* Health, exercise, and energy levels
+* Sleep quality and daily routine
+* Time spent on focused learning
+* Distractions and screen-time habits
+* Personal spending, saving, and financial growth
+
 
 ---
 
