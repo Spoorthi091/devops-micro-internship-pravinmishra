@@ -241,10 +241,9 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://lnkd.in/p/g3MpCwfx
 
-```text
-Add your URL here...
+
 ```
 
 ---
@@ -253,27 +252,40 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+🚀 My DevOps Learning Journey – Week 00
+I started my DevOps learning journey by exploring some basic concepts related to networking, application architecture, and development tools. Here’s what I learned:
+🤖 ChatGPT
+ I learned how to use ChatGPT as a learning assistant to understand technical concepts in simple and beginner-friendly language.
+🌐 Internet & Networking
+ I learned how a user can access a website hosted in another country. I understood concepts like packet switching, IP addresses, TCP/IP, and HTTP/HTTPS.
+🏗️ App Architecture
+ I learned the difference between two-tier and three-tier architecture. I understood how the Frontend, Backend, and Database communicate with each other.
+🔤 DNS
+ I learned that DNS converts a domain name into an IP address. I also learned that an A record is used to connect a domain with an IPv4 address.
+💻 VS Code Setup
+ I verified my development environment using the VS Code integrated terminal and practiced commands like whoami, pwd, and dir.
+This week helped me understand the basic building blocks of how applications communicate and work over the internet. 🚀
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://lnkd.in/gEdTt9e7 · Start your DevOps journey: https://lnkd.in/g8JKe9C9
 
 ---
 
 # Reflection – Week 0
 
 ### What did you find easy?
+Understanding basic networking concepts like IP addresses, DNS, and protocols was easy for me. Using VS Code and running basic terminal commands like whoami, pwd, and dir was also easy.
 
-Add your answer here...
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Understanding packet switching and the difference between two-tier and three-tier architecture was a little difficult at first. After learning with simple examples, I understood them better.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will spend more time practicing DevOps concepts and commands. I also want to improve my understanding by doing more hands-on practice instead of only reading the concepts.
 
 ---
 
