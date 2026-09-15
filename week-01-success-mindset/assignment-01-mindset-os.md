@@ -55,23 +55,25 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent practice produces better results than trying to learn everything at once.
 
 ### Evidence from my life
 
-Add your answer here...
+When I tried to learn too many topics in a short time, I found it difficult to remember and understand them properly.
+When I started focusing on one topic at a time and practiced it regularly, I understood the concepts better and felt more confident.
 
 ---
 
 ## Truth #2
 
 ### Truth
+Making mistakes is a necessary part of learning something new
 
-Add your answer here...
 
 ### Evidence from my life
 
-Add your answer here...
+While working on technical projects, I faced errors in my code and deployment problems.
+Instead of stopping, I tried different solutions and learned from each error. This helped me understand the concepts better than simply reading about them.
 
 ---
 
@@ -79,11 +81,13 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Starting a task is usually easier than continuously worrying about how difficult it will be.
+
 
 ### Evidence from my life
 
-Add your answer here...
+Sometimes I delayed starting a new technical task because I thought it would be difficult or confusing.
+When I finally started working on it step by step, I realized that the task was manageable. Completing small parts also made me more confident to continue.
 
 ---
 
