@@ -150,7 +150,12 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+**1. What is DNS?**
+DNS (Domain Name System) is like a phonebook for the internet. It converts an easy-to-remember website name, such as **epicreads.com**, into the IP address of the server where the website is hosted. This makes it easier for users to access websites without remembering their IP addresses.
+
+**2. Which DNS record is required and why?**
+An **A record** is required to connect **epicreads.com** to **52.172.142.222** because an A record maps a domain name to an **IPv4 address**. The **port 3000** is separate from DNS and is handled by the application or web server.
+
 
 ---
 
