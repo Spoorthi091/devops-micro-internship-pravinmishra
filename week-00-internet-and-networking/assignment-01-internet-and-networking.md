@@ -35,7 +35,8 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+> **I learnt what a protocol is in networking and how it helps devices communicate with each other. I understood that protocols are like rules that devices follow to exchange information correctly. I also learnt some real-life examples that made the concept easier to understand.**
+
 
 ---
 
@@ -60,7 +61,12 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a person in the USA opens the EpicReads website, their computer or phone sends a request to the website server in Finland. First, the website is found using its **IP address**, which works like the address of the website’s server.
+
+The information is sent using **packet switching**. This means the data is broken into small pieces called packets, and these packets travel through the internet to Finland. **TCP/IP** is a set of rules that helps send these packets to the correct place and makes sure they arrive properly.
+
+The browser uses **HTTP or HTTPS** to communicate with the website. HTTPS is safer because it protects the information sent between the user and the website. Finally, the server sends the website data back, and the browser shows the EpicReads website to the user.
+
 
 ---
 
