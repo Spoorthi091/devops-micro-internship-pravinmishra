@@ -214,7 +214,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+I have cut corners before, especially when I was under pressure to finish something quickly. At first, I felt relieved because I completed the task without spending as much time or effort. But later, I felt guilty and uncomfortable because I knew I had not done it in the right way. I also worried that someone might notice or that I would struggle if I had to explain the work properly. That experience taught me that shortcuts may save time temporarily, but they can create stress and reduce my confidence in my own work.
 
 ---
 
