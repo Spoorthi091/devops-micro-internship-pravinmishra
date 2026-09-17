@@ -241,7 +241,7 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 
 ## LinkedIn Post URL
 
-https://lnkd.in/p/g3MpCwfx
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_what-does-my-20-version-look-like-my-20-share-7505552631176564736-zOFX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 
 ```
@@ -250,7 +250,7 @@ https://lnkd.in/p/g3MpCwfx
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+Paste the full text of your LinkedIn post here:https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_what-does-my-20-version-look-like-my-20-share-7505552631176564736-zOFX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 🚀 My DevOps Learning Journey – Week 00
 I started my DevOps learning journey by exploring some basic concepts related to networking, application architecture, and development tools. Here’s what I learned:
