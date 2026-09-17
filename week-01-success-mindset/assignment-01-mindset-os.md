@@ -169,7 +169,7 @@ Most importantly, I had built a career that reflected my own effort and growth. 
 
 ### Public Link
 
-https://lnkd.in/p/geaG6fjK
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_what-does-my-20-version-look-like-my-20-share-7505552631176564736-zOFX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 ---
 
@@ -383,14 +383,13 @@ My biggest weakness is getting distracted and sometimes delaying tasks when I fe
 I will follow a 1-hour focused study session from Monday to Thursday, from 7:00 PM to 8:00 PM. During this time, I will keep my phone away and focus only on my DMI work or important learning tasks. Every Sunday, I will review my progress and plan the next week.
 
 ### LinkedIn Post
-
-https://lnkd.in/p/g-nN4acj
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-dmi-learningjourney-share-7505609137053937664-HBa0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: https://lnkd.in/p/g-nN4acj  
+- LinkedIn Post URL: https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-dmi-learningjourney-share-7505609137053937664-HBa0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4  
 - Blog / Medium : https://medium.com/@dudatispoorthi/week-1-building-my-success-mindset-e857d24c584d?postPublishedType=initial  
 
 ---
