@@ -390,7 +390,7 @@ https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-dmi-learningjour
 ## 10. Proof of Work
 
 - LinkedIn Post URL: https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-dmi-learningjourney-share-7505609137053937664-HBa0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4  
-- Blog / Medium : https://medium.com/@dudatispoorthi/my-success-mindset-building-the-2-0-version-of-myself-8877fb07537a?postPublishedType=initial  
+- Blog / Medium : https://medium.com/@dudatispoorthi/my-success-mindset-building-the-2-0-version-of-myself-8877fb07537a?postPublishedType=repub
 
 ---
 
