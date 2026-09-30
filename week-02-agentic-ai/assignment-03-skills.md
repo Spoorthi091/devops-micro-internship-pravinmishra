@@ -56,7 +56,7 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-![Uploading image.png…]()
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/919a31e5-ecb7-44dd-ade4-012ba5a5ee04" />
 
 
 
@@ -78,7 +78,8 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+![Uploading image.png…]()
+
 
 ---
 
@@ -94,7 +95,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/Spoorthi091/devops-micro-internship-pravinmishra
 
 ## LinkedIn post URL
 
