@@ -19,8 +19,8 @@ Create the `.claude/agents/` directory and add all required agent files.
 ### Evidence
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bfc6b92b-d465-4898-ab7a-60dda0344902" />
 
-Add your screenshot here.
 
 ---
 
@@ -54,13 +54,15 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7dc31196-e551-475a-adf2-d9560f32a188" />
+
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c5d222c-10b5-49f5-bfbd-bb3a7f2ef91e" />
+
 
 ---
 
