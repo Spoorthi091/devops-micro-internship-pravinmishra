@@ -34,19 +34,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses Haiku because its task mainly involves reviewing infrastructure and identifying common cost-saving opportunities. Haiku is faster and more cost-efficient while still being suitable for this type of analysis. Using a smaller model helps reduce the cost of running the agent.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor is designed only to inspect the project and report security issues. It does not need to modify files. Removing the Write tool follows the principle of least privilege and prevents the security agent from accidentally changing the code or configuration.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer uses inherit so that it can use the model configuration of the parent Claude session. This gives the agent flexibility to work with the model selected by the main session instead of forcing a specific model.
 
 ---
 
@@ -98,7 +98,8 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae16d719-02af-4120-b4fa-d04e0ac0cbdd" />
+
 
 ---
 
@@ -114,7 +115,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/Spoorthi091/devops-micro-internship-pravinmishra
 
 ---
 
