@@ -109,7 +109,7 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+https://lnkd.in/p/dFxXkYYp
 
 ---
 
