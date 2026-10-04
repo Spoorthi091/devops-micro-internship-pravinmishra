@@ -93,7 +93,8 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+<img width="700" height="889" alt="Screenshot (373)" src="https://github.com/user-attachments/assets/76c3f764-91ad-4a16-afb1-bd2ecdb7ef05" />
+
 
 ---
 
