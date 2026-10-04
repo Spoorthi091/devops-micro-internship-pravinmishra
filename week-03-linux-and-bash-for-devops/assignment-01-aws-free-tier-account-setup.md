@@ -28,13 +28,17 @@ At this stage, it will help me get practical experience with cloud and DevOps in
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier allows new customers to use selected AWS services and credits at no cost within specified limits.
+Under the current AWS Free plan, new customers receive $100 in credits and can earn up to another $100 through eligible activities.
+The Free plan lasts for up to 6 months, or until the credits are used, whichever comes first.
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+1.Amazon EC2 — up to 750 hours per month for eligible micro instances under applicable offers.
+2.Amazon S3 — 5 GB of Standard storage, plus 20,000 GET and 2,000 PUT requests per month under the applicable free offer.
+3.AWS Lambda — 1 million requests and up to 400,000 GB-seconds of compute per month.
 
 ---
 
