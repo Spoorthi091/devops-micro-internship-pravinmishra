@@ -132,7 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_what-does-my-20-version-look-like-my-20-share-7505552631176564736-zOFX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4|https://medium.com/@dudatispoorthi/my-success-mindset-building-the-2-0-version-of-myself-8877fb07537a?postPublishedType=repub|
 | 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-dmi-learningjourney-share-7505609137053937664-HBa0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4| https://medium.com/@dudatispoorthi/my-success-mindset-building-the-2-0-version-of-myself-8877fb07537a?postPublishedType=initial |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ⏳ ✅ Solved
+ | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
