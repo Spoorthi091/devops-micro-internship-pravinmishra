@@ -96,15 +96,14 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`Add your URL here`
+https://lnkd.in/p/dG_YEynQ
 
 ---
 
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
-
-`Add your URL here`
+https://github.com/Spoorthi091/devops-micro-internship-pravinmishra
 
 ---
 
