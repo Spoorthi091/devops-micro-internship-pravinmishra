@@ -20,7 +20,8 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (351)" src="https://github.com/user-attachments/assets/7a40888b-5d39-4a50-928a-4982a2978be9" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e47270dd-7a1e-4973-a635-0d7e016f1d52" />
+
 
 ---
 
@@ -48,7 +50,8 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (359)" src="https://github.com/user-attachments/assets/a2efb314-ae3a-4775-91b0-545ebfa9813a" />
+
 
 ---
 
@@ -62,7 +65,8 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9c46193-f712-49a9-a830-07223539ed15" />
+
 
 ---
 
@@ -76,7 +80,8 @@ Configure Claude Code permissions and connect the hook scripts created in the pr
 
 #### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (355)" src="https://github.com/user-attachments/assets/bea5eec9-8314-4001-a4ce-fd5c943d8251" />
+
 
 ---
 
