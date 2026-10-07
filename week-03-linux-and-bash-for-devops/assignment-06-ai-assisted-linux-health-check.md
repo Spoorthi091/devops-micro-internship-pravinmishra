@@ -101,7 +101,8 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/abf0838f-5bb2-458a-812e-ff47fe24f85a" />
+
 
 ---
 
@@ -111,19 +112,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+The Gather phase is the part where Claude reads the project context and collects system information using read-only commands, such as Nginx status, port 80, HTTP response, error logs, and web files.
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+Yes. Claude did not create or modify any files. I verified this because the commands it used were read-only inspection commands, and its conclusion explicitly stated that no recovery command was executed.
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+Planning before coding helps identify the required checks, understand the system, and avoid unnecessary or unsafe changes. It also makes the automation more organized and reduces the chance of mistakes.
 
 ---
 
