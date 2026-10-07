@@ -366,32 +366,31 @@ Review and reflect on the security and reliability practices applied during this
 Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
-
-Write your answer here.
+SSH key-based authentication is more secure because it uses a private key and a public key instead of sending or sharing a password. The private key should remain secret on the user's device, while the public key can be stored on the server. This makes it harder for attackers to guess or steal login credentials through password attacks.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Only required ports should be open because every open port can be a possible entry point for attackers. Closing unnecessary ports reduces the attack surface and helps protect the server from unauthorized access and security threats.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+Enabling Nginx on boot ensures that the web server automatically starts when the server restarts. This helps the website become available again without requiring someone to manually start Nginx.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Publicly sharing secrets, keys, or credentials can allow unauthorized people to access systems, cloud resources, databases, or applications. Attackers could misuse the credentials, steal data, change resources, or create unexpected costs. Therefore, sensitive information should never be included in screenshots, GitHub repositories, or public posts
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused cloud resources can continue to consume resources and generate charges. Stopping or terminating resources that are no longer required reduces unnecessary costs and also reduces the number of running systems that could become a security risk.
 
 ---
 
