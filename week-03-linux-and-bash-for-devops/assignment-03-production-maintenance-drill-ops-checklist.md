@@ -266,19 +266,25 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4effda9b-14c4-4958-856c-4dd95aaeff41" />
+
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/49fd72fc-f6bc-4a11-94f6-176da3819291" />
+
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8cd8924-3275-4e52-a037-eb46888b0575" />
+
 
 ---
 
@@ -288,19 +294,18 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The configuration failure was caused by changing the valid Nginx directive try_files to the invalid directive try_file. Because Nginx did not recognize try_file, the configuration test failed.
 
 ---
 
 **2. How did you fix the issue?**
-
-Write your answer here.
+I changed the incorrect try_file directive back to try_files. I then ran sudo nginx -t to verify that the configuration syntax was correct and reloaded Nginx. Finally, I used curl -I http://localhost and received HTTP/1.1 200 OK, confirming that the service recovered
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+I would test the Nginx configuration with nginx -t before applying changes, keep backups of working configurations, use version control for configuration files, and make changes through a controlled deployment process. Monitoring and logging should also be used to detect failures quickly.
 
 ---
 
