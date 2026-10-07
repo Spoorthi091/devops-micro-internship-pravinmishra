@@ -158,13 +158,14 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf36dab7-691e-4a82-91d8-5ca6e63095d7" />
+
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa1a68d9-b831-4c73-a965-4cc9d39b1bed" />
 
-Add your screenshot here.
 
 ---
 
@@ -174,25 +175,25 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
+An array in Bash is a variable that can store multiple values under one name. Each value is stored as an element of the array and can be accessed individually.
 
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
+Arrays are useful because they allow us to store and manage a list of related values easily. Instead of creating separate variables for each tool, we can store all the tools in one array and process them using a loop.
 
 ---
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+"${tools[@]}" expands to all the elements stored in the tools array. The double quotes preserve each array element as a separate value, which is useful when working with loops.
 
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+The for loop goes through each tool in the tools array one by one and prints it as a checklist item. This avoids writing the same echo command separately for every tool
 
 ---
 
