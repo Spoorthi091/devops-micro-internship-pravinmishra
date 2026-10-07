@@ -317,26 +317,29 @@ Use if-else conditionals to make decisions based on a variable value.
 ### Evidence
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3db0c277-a1e1-4c6d-b320-7b15471687b1" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76cd3ae6-c52c-468c-adf9-1fed52899556" />
+
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68b95580-5dce-4c05-a488-469ef512171d" />
+
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/61b3717e-865d-4fd5-abd2-1cb142b741f7" />
+
 
 ---
 
@@ -345,26 +348,26 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
+if-else is used to make decisions in a Bash script. It checks a condition and runs one set of commands if the condition is true and another set if it is false.
 
-Add your answer here.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+-ge means greater than or equal to. For example, [ "$score" -ge 60 ] checks whether the score is 60 or higher.
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+Testing different values helps confirm that the script works correctly in both situations. In this task, 85 checks the Pass condition and 55 checks the Retry condition.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
+Conditionals allow automation scripts to make decisions automatically based on different situations. For example, a script can check whether a service is running and take different actions depending on the result.
 
 ---
 
