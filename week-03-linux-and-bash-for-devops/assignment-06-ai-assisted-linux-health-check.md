@@ -273,13 +273,17 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f177f454-f326-47df-aaad-9a298488d071" />
+
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/13a4ee7c-5b49-472d-9291-86d88b5b43f9" />
+
 
 ---
 
@@ -289,25 +293,25 @@ Answer the following in your own words:
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-Add your answer here.
+The skill needs Bash to run the Linux triage script and collect system information. Read and Grep can inspect files and search for relevant information. Write is not included because this skill should only investigate the system and must not modify files.
 
 ---
 
 **2. Why is `disable-model-invocation: true` useful for this skill?**
 
-Add your answer here.
+It makes the skill manually invoked by the human using /linux-triage. This gives the operator control over when the health check runs instead of allowing Claude to automatically invoke the skill.
 
 ---
 
 **3. What part is performed by Bash, and what part is performed by Claude?**
 
-Add your answer here.
+Bash performs the actual Linux and Nginx health checks and collects the evidence. Claude reads the results, organizes the evidence, explains the health status, and summarizes the findings without performing recovery actions.
 
 ---
 
 **4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
 
-Add your answer here.
+The Bash script provides real system evidence such as Nginx status, port 80, HTTP response, error logs, and web files. Claude can then make its summary based on that evidence instead of guessing or making an unsupported diagnosis.
 
 ---
 
