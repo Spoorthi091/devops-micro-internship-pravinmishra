@@ -36,7 +36,9 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c13915f9-1f81-4166-9928-757856fc4265" />
+
 
 ---
 
@@ -50,7 +52,8 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f038ec1a-1264-40aa-aaa2-bf4ca7bb26f1" />
+
 
 ---
 
@@ -64,13 +67,15 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/01675b72-7511-49bf-b813-9f37a7ad5a77" />
+
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c8cf75c5-f5a9-4ab1-8896-77859c7c5e36" />
+
 
 ---
 
@@ -84,13 +89,15 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e95bb25b-63d6-4ea3-8ab3-381d745f3909" />
+
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/30a11d08-37eb-4973-9d6b-94df4d57cf0e" />
+
 
 ---
 
@@ -104,13 +111,15 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a63aff8-4d73-4253-9d82-6da5876cd392" />
+
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f5d2a905-6c1d-4518-abcf-de7ced5726a7" />
+
 
 ---
 
