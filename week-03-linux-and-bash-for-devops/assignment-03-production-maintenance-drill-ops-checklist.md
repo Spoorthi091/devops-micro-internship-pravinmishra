@@ -40,7 +40,8 @@ Add your screenshot here.
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0de311cf-9115-4101-95f5-684539d48bac" />
+
 
 ---
 
@@ -50,19 +51,19 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+The sudo ss -tulpen output shows 0.0.0.0:80 with the nginx process, proving that Nginx is listening on port 80 on all IPv4 interfaces.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+Port 22 is not present in the ss output, so SSH is not currently listening on port 22 in this Ubuntu WSL environment.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No unexpected application ports were found. Port 53 is used by the DNS resolver, and port 323 is used by the Chrony time synchronization service. These are normal system services.
 
 ---
 
