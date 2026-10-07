@@ -175,25 +175,29 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fffca200-85c3-46b7-8224-96b6b4949bcb" />
+
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91ba649a-6255-4de7-a1c8-196abdb18327" />
+
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (407)" src="https://github.com/user-attachments/assets/8385e801-8128-4e09-bd76-2cd41d04da17" />
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5eb397d9-d060-4b43-8924-3f6eda3d44f3" />
+
 
 ---
 
@@ -203,13 +207,13 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+None of the resources look critical right now. CPU/load is very low, with load averages of 0.03, 0.03, and 0.05. Memory also has plenty of available space, with 3.1 GiB available out of 3.6 GiB. Disk usage is only 1% on the Ubuntu root filesystem, with about 954 GiB available. Therefore, there are currently no obvious capacity red flags.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If the disk becomes 100% full, the server may not be able to write new files, logs, temporary files, or application data. Services can start failing, websites may become unavailable, and system updates or deployments may fail. A full disk can therefore cause serious production problems, so disk usage should be monitored and cleaned up before it reaches 100%.
 
 ---
 
