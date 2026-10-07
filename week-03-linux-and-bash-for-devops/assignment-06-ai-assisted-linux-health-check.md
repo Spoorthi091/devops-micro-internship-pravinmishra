@@ -138,25 +138,28 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd563b80-85cf-410d-bde4-a478d759bd72" />
+
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/63e6554e-3d2e-4238-a8ed-d8828e54ea12" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ad61d53-7e5a-42db-8378-211179f9ff74" />
+
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a1b5e07c-92af-40a4-905f-dee4bc3360e0" />
+
 
 ---
 
@@ -166,31 +169,45 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
+nginx
+port80
+http
+error_log
+web_files
 
 ---
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
+The for loop goes through each item in the checks array one by one. For every item, it calls run_check to perform the corresponding health check.
 
 ---
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
+Each function handles one specific check. This keeps the script organized, easier to understand, test, and maintain. It also makes it easier to change one check without affecting the others.
 
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
+$(...) is command substitution. It runs a command and stores its output in a variable.
+
+For example:
+
+http_status=$(curl -s -o /dev/null -w "%{http_code}" http://localhost)
 
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
+Different exit codes allow the script to clearly communicate the result:
+
+0 → HEALTHY
+1 → WARN
+2 → FAIL
+
+This is useful because other automation tools can check the exit code and understand whether the system is healthy, needs attention, or has a failure.
 
 ---
 
