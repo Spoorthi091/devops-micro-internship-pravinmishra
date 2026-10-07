@@ -325,19 +325,24 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8db3b01a-465f-4448-b174-1d41170b6426" />
+
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/104ce06d-f8e6-4c0d-8ffb-1fdef0c86bfb" />
+
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2eb9446-620b-408f-8439-c3ca7472a87e" />
+
 
 ---
 
@@ -346,32 +351,31 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. Which three checks failed?**
-
-Add your answer here.
+The three failed checks were the Nginx service, port 80 listening status, and HTTP response.
 
 ---
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-Add your answer here.
+systemctl is-active nginx showed that Nginx was inactive. Port 80 was not listening, and curl -I http://localhost failed to connect to port 80. These three pieces of evidence show that the web service was unavailable.
 
 ---
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-Add your answer here.
+No. Claude only suggested sudo systemctl start nginx. It did not execute the command. This is important because restarting a service can change the system, so the human operator should decide whether recovery is appropriate.
 
 ---
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-Add your answer here.
+The Bash report represents the Gather phase because the script collects system health evidence such as service status, port status, HTTP response, logs, and web files.
 
 ---
 
 **5. Which phase is represented by Claude's explanation?**
 
-Add your answer here.
+Claude's explanation represents the Reason phase because Claude analyzes the collected evidence, identifies the likely cause, and recommends a possible recovery action.
 
 ---
 
