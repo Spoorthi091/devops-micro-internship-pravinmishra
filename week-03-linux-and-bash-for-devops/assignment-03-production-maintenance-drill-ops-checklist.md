@@ -227,19 +227,22 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a7921108-8119-4e83-9da9-eb1c55c59275" />
+
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/13625353-1cbe-448b-947c-01206821c99b" />
+
 
 ---
 
-#### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
+#### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2975205-47b2-4b74-95cf-c3f0dacc3ca9" />
 
 ---
 
@@ -249,7 +252,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+I confirm that the correct version of the application is deployed by checking that the React build files are present in /var/www/html, searching the deployed files for the expected Deployed by text, and verifying that Nginx is configured with try_files $uri $uri/ /index.html;. I can also confirm the deployment by opening the application in the browser and checking that it displays “Deployed by: Dudati Spoorthi” and the correct date.
 
 ---
 
