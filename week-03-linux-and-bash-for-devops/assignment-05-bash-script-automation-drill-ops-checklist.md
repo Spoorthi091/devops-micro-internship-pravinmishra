@@ -206,14 +206,19 @@ Use loops to repeat a task multiple times.
 ### Evidence
 
 #### Screenshot 1 — Content of `counter.sh`
+<img width="1920" height="1080" alt="Screenshot (441)" src="https://github.com/user-attachments/assets/90c9eab3-f44e-4546-95cb-49aa0c7ae1d7" />
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df9ac3b8-cc55-41df-8bb5-6761f57cd684" />
+
+
+---
+
 
 ---
 
@@ -223,25 +228,27 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
+A loop is a programming structure that repeats a set of commands multiple times until the required condition or range is completed.
 
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
+We use loops to repeat tasks automatically without writing the same commands again and again. This makes Bash scripts shorter, easier to manage, and more efficient.
 
 ---
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
+The loop ran 5 times, from number 1 to number 5.
 
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Add your answer here.
+for i in {1..5}
+to
+for i in {1..10}
 
 ---
 
@@ -255,19 +262,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+
+
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+
 
 ---
 
