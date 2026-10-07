@@ -221,13 +221,17 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c17fd952-38f7-4a38-a7c5-e57b76db720a" />
+
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5b372bcc-80e6-40d2-a4d2-2cf305e50505" />
+
 
 ---
 
@@ -237,25 +241,25 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
+The overall status is WARN. The server itself is working correctly, but the Nginx error log contains one recent error entry. There are no failed health checks.
 
 ---
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
+The strongest evidence is curl http://localhost returning HTTP 200, which shows that Nginx is responding successfully to an HTTP request. The listening port check also shows that port 80 is accepting connections.
 
 ---
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
+The script returned exit code 1 because one health check produced a warning. The Nginx error-log check found one recent error entry, so the final status became WARN. There were no failures.
 
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
+A warning means the system is still working but there is something that needs attention. A failure means an important health check did not pass, such as Nginx being inactive, port 80 not listening, HTTP not returning 200, or the web files being missing.
 
 ---
 
