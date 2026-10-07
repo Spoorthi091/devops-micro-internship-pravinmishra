@@ -319,13 +319,17 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc89a228-acdd-4ffd-8ddb-4b2825621103" />
+
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d34a1331-77e8-4eda-b239-b822127cb045" />
+
 
 ---
 
@@ -335,19 +339,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application broke because the main index.html file was temporarily removed from Nginx's web root directory. The default Nginx index file was also moved, so Nginx had no index page to serve and returned a 403 Forbidden response.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I restored the React index.html file from the backup directory to /var/www/html/. I then tested the application using curl -I http://localhost. The response was HTTP/1.1 200 OK, confirming that the application was successfully restored.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+I would keep backups of deployed files, use version control and automated deployment pipelines, verify the required files after deployment, and perform health checks after every deployment. I would also use monitoring and alerts to detect application failures quickly.
 
 ---
 
