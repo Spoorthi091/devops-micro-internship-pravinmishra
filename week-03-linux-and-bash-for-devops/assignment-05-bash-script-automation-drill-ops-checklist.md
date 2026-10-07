@@ -64,19 +64,22 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/541b9e3b-6b25-45a9-97bb-8dd73f7c2252" />
+
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4daecc57-4ed1-44b2-be63-77e40010722c" />
+
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff3b352f-c2ca-4ad8-a7bc-be3d8e0244ef" />
+
 
 ---
 
@@ -86,19 +89,18 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-Add your answer here.
+#!/bin/bash is called a shebang. It tells the operating system to use the Bash shell to interpret and execute the commands in the script.
 
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
+chmod +x gives the script execute permission. Without execute permission, we cannot normally run the script directly using ./first-script.sh.
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
-
-Add your answer here.
+./script.sh runs the script as an executable file and uses the interpreter specified by the shebang. bash script.sh explicitly tells Bash to run the script, so execute permission is not required.
 
 ---
 
