@@ -402,13 +402,14 @@ Unused cloud resources can continue to consume resources and generate charges. S
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-linux-nginx-share-7513539520588541953-iHnV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff13add5-b3e4-49bb-9320-ccb694d8e68a" />
+
 
 ---
 
