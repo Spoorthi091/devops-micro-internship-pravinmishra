@@ -122,19 +122,21 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/678e0a5b-30d7-4530-a28e-599c9914f608" />
+
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15e2c2ef-37a8-424f-9322-408a5136139f" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bbdcd6ad-62e3-47e4-86fc-9c00d612c3f5" />
+
 
 ---
 
@@ -147,19 +149,19 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+No actual errors were found during the check. The Nginx error log contains only a [notice] message about using inherited sockets, which is a normal Nginx startup/reload message. The systemd journal also shows that Nginx stopped and started successfully.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+It indicates that Nginx is running normally and there are no recent configuration or service errors affecting the application. The successful systemd start messages and the successful access-log responses show that the service is functioning correctly.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes. The access log contains a request with curl/8.18.0 and a 200 status code. This proves that the curl request reached Nginx and Nginx successfully served the requested page. It confirms that traffic is flowing through the Nginx web server.
 
 ---
 
