@@ -20,13 +20,15 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/039e8caa-e62f-4d8b-aa16-12542df83104" />
+
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a166809a-a2db-468a-aaad-d981b2f0cee6" />
+
 
 ---
 
@@ -36,19 +38,19 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+Bash is a command-line shell used in Linux and other Unix-like systems. It allows users to run commands, manage files and directories, execute programs, and automate tasks using shell scripts. Bash is commonly used in DevOps for system administration, automation, deployment, and server management.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+A shell is a general program that provides an interface between the user and the operating system. Bash is one specific type of shell. Other shells include Zsh, Fish, and Dash. Therefore, shell is the general concept, while Bash is a particular shell implementation.
 
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+Bash versions can support different features and syntax. Checking the Bash version helps ensure that the commands and features used in a script are supported by the system. This reduces compatibility problems and makes the script more reliable when it is executed.
 
 ---
 
