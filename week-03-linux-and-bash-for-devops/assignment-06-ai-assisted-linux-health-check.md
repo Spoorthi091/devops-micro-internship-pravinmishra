@@ -389,25 +389,33 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="Screenshot (470)" src="https://github.com/user-attachments/assets/32a7d38a-5d36-4d61-9321-37267147a1be" />
+
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e9fc31a4-0d40-4fe1-9a5e-653b5623ca7b" />
+
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fd67d3e-1545-491c-a0b2-8f5a2bede9e8" />
+
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf6c3bbd-8138-4a37-8923-d827bdb5d2e4" />
+
 
 ---
 
@@ -416,32 +424,31 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. What action did you execute manually?**
-
-Add your answer here.
+I manually executed sudo systemctl start nginx as the human operator to recover the stopped Nginx service.
 
 ---
 
 **2. What evidence proves that the service recovered?**
 
-Add your answer here.
+systemctl is-active nginx returned active, curl -I http://localhost returned HTTP/1.1 200 OK, and port 80 was listening. The second triage also showed 0 FAIL results.
 
 ---
 
 **3. Why is the second triage run necessary?**
 
-Add your answer here.
+The second triage run is necessary to verify that the recovery actually worked and that the system is healthy after the recovery action.
 
 ---
 
 **4. What could go wrong if an AI agent automatically restarted every failed service?**
 
-Add your answer here.
+An automatic restart could interrupt a production service, hide the real cause of a problem, cause downtime, or restart a service when it is unsafe or not appropriate to do so.
 
 ---
 
 **5. In one sentence, explain the difference between using AI as a chatbot and using AI in this agentic workflow.**
 
-Add your answer here.
+A chatbot mainly answers questions, while an agentic workflow uses AI to gather evidence, reason about the problem, recommend an action, and verify the result while keeping important actions under human control.
 
 ---
 
