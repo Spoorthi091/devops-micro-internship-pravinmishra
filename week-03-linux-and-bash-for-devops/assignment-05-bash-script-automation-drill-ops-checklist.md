@@ -381,19 +381,22 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/90cb3520-89db-44da-b266-b4ee1b53480f" />
+
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80b6d757-9087-417c-9e37-b28b5bd8c840" />
+
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/25903756-0951-4826-9ad6-72f04a9f28e1" />
+
 
 ---
 
@@ -403,25 +406,29 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+A function is a named group of commands that performs a specific task. We can call the function whenever we need to perform that task.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+Functions make scripts more organized and reusable. They reduce repeated code and make the script easier to understand, maintain, and update.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+I created three functions:
+
+show_user — displays my name and task information.
+check_files — checks whether the required directory and file exist.
+show_tools — uses a loop to display the DevOps tools checklist.
 
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+The script uses variables to store my name and file paths, an array to store DevOps tools, a loop to display each tool, conditionals to check whether the directory and file exist, and functions to organize these tasks into reusable sections.
 
 ---
 
@@ -433,13 +440,14 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-bash-linux-share-7513610649902645248-9lOD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJno
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93db22b4-43c3-4b21-98e0-a15988b61166" />
+
 
 ---
 
