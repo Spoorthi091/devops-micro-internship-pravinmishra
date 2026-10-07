@@ -456,51 +456,61 @@ A chatbot mainly answers questions, while an agentic workflow uses AI to gather 
 
 Fill in all seven sections below in your own words.
 
-**Full Name:** Add your full name here
+**Full Name:** Dudati Spoorthi
 
-**Date:** DD/MM/YYYY
+**Date:** 07/10/2026
 
 ---
 
 **1. Reported Symptom**
-
-Add your answer here.
+Nginx was not running, so the website could not be reached through localhost. The HTTP request failed because port 80 was not accepting connections
 
 ---
 
 **2. Evidence Collected**
 
-Add your answer here.
+The first triage showed that the Nginx service was inactive, port 80 was not listening, and the HTTP response was 000. The web files were still present in /var/www/html. The Nginx error log also showed one recent error entry.
 
 ---
 
 **3. Most Likely Cause**
 
-Add your answer here.
+The most likely cause was that the Nginx service was inactive. The failed port 80 and HTTP checks were consistent with Nginx being stopped. The collected evidence did not prove why the service became inactive.
 
 ---
 
 **4. Human-Approved Recovery Action**
+The human operator manually executed:
 
-Add your answer here.
+sudo systemctl start nginx
+
+Claude did not execute the recovery command.
 
 ---
 
 **5. Verification**
 
-Add your answer here.
+After recovery, systemctl is-active nginx returned active. curl -I http://localhost returned HTTP/1.1 200 OK, and port 80 was listening. The second Linux triage reported 4 healthy checks, 1 warning, and 0 failures.
 
 ---
 
 **6. Safety Decision**
 
-Add your answer here.
+The AI agent was not allowed to restart Nginx automatically. It collected evidence, analyzed the incident, and suggested the recovery command. The human operator reviewed the recommendation and manually performed the recovery action.
 
 ---
 
 **7. Agentic Loop Mapping**
 
-Add your answer here.
+Gather: Bash triage collected service, port, HTTP, error-log, and web-file evidence.
+
+Reason: Claude analyzed the evidence and identified Nginx being inactive as the most likely cause.
+
+Decide: The recovery command was suggested, but the AI did not execute it.
+
+Act: The human operator executed sudo systemctl start nginx.
+
+Verify: The service status, HTTP response, port 80, and second triage run confirmed recover
 
 ---
 
@@ -511,14 +521,14 @@ Add your answer here.
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-
-`Add your URL here`
-
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_dmibypravinmishra-agenticai-claudecode-share-7513643665160908801-do-u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+
+<img width="1920" height="1080" alt="Screenshot (475)" src="https://github.com/user-attachments/assets/5af80712-bda5-4ff0-b7b1-6ab42f371122" />
+
 
 ---
 
@@ -526,7 +536,7 @@ Add your screenshot here.
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`Add your URL here`
+https://github.com/Spoorthi091/devops-micro-internship-pravinmishra/tree/main/week-03-linux-and-bash-for-devops?utm_source=chatgpt.com
 
 ---
 
