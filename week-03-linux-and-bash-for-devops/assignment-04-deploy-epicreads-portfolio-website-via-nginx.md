@@ -130,14 +130,14 @@ Verify the deployed website and Nginx service are healthy.
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-
-https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-nginx-linux-share-7513596497586782208-WGXj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-nginx-linux-share-7513597504823767040-0rl5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7fcf9df3-1bbb-479e-bc4c-950ce73291f5" />
+
 
 ---
 
