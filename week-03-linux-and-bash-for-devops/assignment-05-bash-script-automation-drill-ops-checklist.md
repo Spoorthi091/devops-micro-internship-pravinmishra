@@ -262,18 +262,21 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c55d9c6e-cf87-4f92-bea0-cc65ab52b231" />
 
 
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a2ae410-0cd1-4ff6-a160-5e8e93ae04d2" />
 
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e03af4a1-0adf-427a-941d-3fabf6319a8e" />
 
 
 ---
@@ -284,25 +287,24 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+-d checks whether a given path exists and is a directory.
 
 ---
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+-f checks whether a given path exists and is a regular file.
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+Storing paths in variables makes the script easier to read, reuse, and update. If the path changes, we only need to change it in one place.
 
 ---
 
 **4. What happens if the file does not exist?**
-
-Add your answer here.
+If the file does not exist, the -f condition becomes false, so the script runs the else block and displays a message saying that the file does not exist.
 
 ---
 
