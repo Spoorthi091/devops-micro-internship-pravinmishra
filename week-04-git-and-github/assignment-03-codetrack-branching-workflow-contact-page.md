@@ -20,7 +20,8 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ed87467-3814-450c-9fa0-08eb2744dd7d" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/42f196c5-2059-4ab2-91c7-a7e23dcf7d8e" />
+
 
 ---
 
@@ -48,19 +50,22 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d0145bc-b489-4e22-900a-9430807f170a" />
+
 
 ---
 
 #### Screenshot 4 — Output of `git commit`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/87844e05-715a-4d0a-9b23-b6cb8c95bae4" />
+
 
 ---
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/949c9cc4-c991-4774-9f76-7b8cdd7f5f79" />
+
 
 ---
 
@@ -74,19 +79,22 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5921f19f-094f-4904-a633-329accbcd0bd" />
+
 
 ---
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4006cdd-c05b-46c3-8010-79b55872f86a" />
+
 
 ---
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80f4f240-cde3-4c70-9df8-fb65790baa06" />
+
 
 ---
 
@@ -100,13 +108,15 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1c938cb4-71f7-49fc-a60f-1047d8ec1c2c" />
+
 
 ---
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8f3b2021-af36-4b7b-9b17-0ab69f94f0c5" />
+
 
 ---
 
@@ -118,21 +128,23 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 ### Evidence
 
-#### Screenshot 11 — Output of `git merge feature/contact-page`
+#### Screenshot 11 — Output of `git merge feature/contact-page
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/33f1b233-43f7-4c09-b9c4-8172e6dcbc15" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c98ebbb-b680-4604-9d8a-99788e90fae4" />
+
 
 ---
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02ba779b-7515-4283-bfd9-98d82ec2c939" />
+
 
 ---
 
@@ -146,7 +158,8 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e36790eb-b43a-407d-af35-e10d3aa7a0ae" />
+
 
 ---
 
@@ -160,7 +173,8 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/876fa45c-eb43-45f6-8e1a-4f107553d031" />
+
 
 ---
 
