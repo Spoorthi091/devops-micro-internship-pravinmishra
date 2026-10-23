@@ -20,7 +20,8 @@ Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub a
 
 #### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/243da99a-afbf-412b-a787-818517f946b4" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Configure one authentication method — HTTPS with a Personal Access Token, or S
 
 #### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1911cddd-2d46-47b4-802d-52b13f3b4035" />
+
 
 ---
 
@@ -48,7 +50,7 @@ Clone your fork locally, then add the original repository as `upstream`.
 
 #### Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/79dc0961-2e7b-491d-9f0f-ed4233bcd078" />
 
 ---
 
@@ -62,13 +64,14 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name �
 
 #### Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7803fcc-d9bf-49ec-b899-312db6a39afb" />
+
 
 ---
 
 #### Screenshot 5 — Output of `git commit`
 
-Add your screenshot here.
+
 
 ---
 
