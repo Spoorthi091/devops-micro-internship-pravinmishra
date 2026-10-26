@@ -93,7 +93,8 @@ Fetch and merge `upstream/main` into your local default branch, rebase your feat
 
 #### Screenshot 7 — Your fork on GitHub showing `feature-readme-update` in the branch selector or a "Compare & pull request" banner
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b76f6657-d7ea-4d39-ba68-1f0523bc43a5" />
+
 
 ---
 
@@ -107,13 +108,15 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 #### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2309119-a4d0-41c6-85dc-5d22da933a82" />
+
 
 ---
 
 #### Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/95669e95-a4e6-4aee-9272-82fec679baeb" />
+
 
 ---
 
@@ -121,7 +124,7 @@ Add your screenshot here.
 
 Paste your Pull Request URL here:
 
-`Add your URL here`
+https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/501?utm_source=chatgpt.com
 
 ---
 
@@ -133,13 +136,14 @@ Paste your Pull Request URL here:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-git-github-share-7520383461958778880-ciVp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/063df28d-e12c-421a-b246-753e2d984d46" />
+
 
 ---
 
@@ -155,8 +159,7 @@ Add your screenshot here.
 ## Fork URL
 
 Paste your fork URL here:
-
-`Add your URL here`
+https://github.com/Spoorthi091/devops-micro-internship-interviews
 
 ---
 
