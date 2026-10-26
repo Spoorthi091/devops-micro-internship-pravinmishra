@@ -250,31 +250,31 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+Gather means collecting information. In this assignment, I used Git commands to check the repository status, staged changes, file contents, and commit history. The /pr-ready skill also gathered information about the changes for review.
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+Analyze was the step where the pre-commit hook checked for possible hardcoded secrets and files larger than 1 MB. The /pr-ready AI skill reviewed the changes for secrets, debug statements, missing tests, documentation, and other possible issues.
 
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+Human Act is when I reviewed the results, corrected the issues, committed the changes, pushed my branch to GitHub, and opened the pull request. A human must control these actions to make sure the changes are correct and authorized before they are shared with others.
 
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+Verify is the step where I checked the hook's output, confirmed that unsafe test cases were blocked, verified that a safe commit succeeded, checked the commit history, and reviewed the pull request on GitHub. These checks helped confirm that the workflow worked as expected.
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+The pre-commit hook automatically blocks specific problems, such as likely hardcoded secrets and files larger than 1 MB, but it cannot understand every issue. The AI skill can review changes more broadly and identify other possible problems, so both tools complement each other.
 
 ---
 
@@ -288,7 +288,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+https://www.linkedin.com/posts/spoorthi-dudati-33aa09421_devops-git-github-share-7520417675307610112-TupK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGsdRp4BJnoD-iY2UI4dRgCNcyoR7WfiwW4
 
 ---
 
@@ -296,7 +296,19 @@ Add your LinkedIn post URL here...
 
 Add 3-5 bullet points on what you learned this week.
 
--
+-Learned how to create a Git pre-commit hook to detect possible hardcoded secrets and block files larger than 1 MB.
+
+
+
+Learned how to use a Claude /pr-ready skill to review code changes and draft a pull request description.
+
+
+
+Understood the difference between fixed-rule checks and AI-assisted code review.
+
+
+
+Practiced testing Git hooks, fixing issues, committing changes, pushing a branch, and creating a GitHub pull request.
 -
 -
 
@@ -317,8 +329,7 @@ Add 3-5 bullet points on what you learned this week.
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
-
-`Add your URL here`
+https://github.com/Spoorthi091/devops-micro-internship-interviews
 
 ---
 
