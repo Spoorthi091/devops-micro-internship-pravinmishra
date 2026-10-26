@@ -73,13 +73,15 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (576)" src="https://github.com/user-attachments/assets/03f47fa5-717b-4447-931c-b7fe3b6a821c" />
+
 
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (577)" src="https://github.com/user-attachments/assets/cf7c7287-27db-4419-b1af-bef26731e8f6" />
+
 
 ---
 
@@ -87,13 +89,17 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+hooks/pre-commit is tracked in the repository so that all team members can access, review, and share the same hook. The .git/hooks/ folder is local to each user's computer and is not tracked by Git. By configuring core.hooksPath to hooks, the project uses the shared hook, making it easier to maintain consistent checks across the team.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+The Git pre-commit hook runs before a Git commit is created. It checks staged changes for possible secrets and files larger than 1 MB, blocking the commit if a problem is found.
+
+The PreToolUse hook in Claude Code runs before a tool is executed. It can inspect or restrict tool actions according to configured rules.
+
+Both act as preventive safety checks: they inspect an action before it happens and can block it when it violates a rule. The main difference is that pre-commit protects the Git commit process, while PreToolUse controls tool execution in Claude Code.
 
 ---
 
