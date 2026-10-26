@@ -27,7 +27,8 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (573)" src="https://github.com/user-attachments/assets/91a254f0-8c4a-41d5-8723-8aa2ffee951b" />
+
 
 ---
 
@@ -35,7 +36,7 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+Creating a dedicated feature branch keeps my Assignment 6 changes separate from the main branch. It allows me to develop and test the Git safety hook and AI-assisted PR Ready skill without affecting existing work. If something goes wrong, I can fix or discard the changes more safely. Once everything is tested, I can submit the changes through a Pull Request for review.
 
 ---
 
@@ -49,7 +50,8 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (574)" src="https://github.com/user-attachments/assets/5015a81e-f840-433d-9596-f1fb40f70644" />
+
 
 ---
 
@@ -57,7 +59,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+We use an obviously fake API key to safely test the pre-commit hook without exposing real credentials. A real key could be stolen or misused if committed to GitHub. The fake key helps us verify that the hook detects potential secrets and blocks risky commits without compromising security.
 
 ---
 
