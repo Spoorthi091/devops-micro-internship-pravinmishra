@@ -113,7 +113,8 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ece03058-20f8-4b62-935d-a36cafa4fda3" />
+
 
 ---
 
@@ -121,13 +122,14 @@ Add your screenshot here.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+The following line matched my fake API key:grep -Ein '(api[_-]?key|secret|password|token)[[:space:]]*[:=][[:space:]]*["\x27]?[A-Za-z0-9_./+=-]{8,}'
+It matched because the variable name API_KEY contains the keyword key, followed by an equals sign and a string containing more than eight allowed characters. The hook detected the pattern and blocked the commit.
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
+Not always. If a secret is stored in a poorly named variable, such as my_value, the hook might not detect it because the variable name does not contain keywords like key, secret, password, or token. The AKIA prefix is not required by this particular rule. This shows that fixed rules can miss secrets that do not match their patterns and can sometimes flag harmless values. Therefore, we should combine such hooks with dedicated secret-scanning tools and code reviews.
 
 ---
 
@@ -141,13 +143,15 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="Screenshot (579)" src="https://github.com/user-attachments/assets/34f5dc77-540a-4fae-b366-b78f9c54b512" />
+
 
 ---
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0debe72e-265c-4334-a075-3b0bba52b613" />
+
 
 ---
 
@@ -155,13 +159,13 @@ Add your screenshot here.
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+The /pr-ready skill has Bash and Read permissions so it can inspect the Git status, staged changes, and relevant files. It does not have Write permission because its purpose is only to review changes and prepare a PR readiness report. This helps prevent accidental modifications to files and keeps the review process safe and read-only.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+They detected some of the same issues, including the possible hardcoded API key and the oversized test file. However, they served different purposes. The pre-commit hook automatically blocked the commit when it found these problems. The /pr-ready review also identified the debug output, missing tests or documentation, and the Git hook configuration issue. This shows that automated rules are useful for blocking specific risky changes, while an AI review can identify broader issues and suggest improvements.
 
 ---
 
