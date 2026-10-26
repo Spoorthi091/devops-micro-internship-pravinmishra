@@ -71,6 +71,7 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name �
 
 #### Screenshot 5 — Output of `git commit`
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3494607d-4936-4300-86cc-8fabdcdea9bd" />
 
 
 ---
@@ -85,7 +86,8 @@ Fetch and merge `upstream/main` into your local default branch, rebase your feat
 
 #### Screenshot 6 — Output of `git push -u origin feature-readme-update` showing a successful push
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ee7a2a9a-0ba6-448f-a162-a933a6ee5b1a" />
+
 
 ---
 
