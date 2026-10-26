@@ -179,13 +179,14 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/32c9cf52-aea9-41f1-8964-754a2c513893" />
+
 
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4699a165-f79c-4783-9c23-323746781619" />
 
-Add your screenshot here.
 
 ---
 
@@ -193,7 +194,9 @@ Add your screenshot here.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+1. Removed the fake API key: Changed the value in examples/app-config.py from a fake key string to an empty placeholder, API_KEY = "".
+2. Removed the debug output: Deleted print("DEBUG: dumping configuration") and the startup print("Application started") statement.
+After these changes, I staged the updated file and committed it. The pre-commit hook ran successfully and displayed All pre-commit checks passed.
 
 ---
 
@@ -209,13 +212,13 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9128c236-74b9-4e3b-a4f2-e7e0f150c854" />
+
 
 ---
 
 #### PR Link
-
-Add your PR URL here...
+https://github.com/Spoorthi091/devops-micro-internship-interviews/pull/1
 
 ---
 
@@ -223,26 +226,24 @@ Add your PR URL here...
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+I reviewed the AI-generated PR description and checked whether the summary, changes, and testing details matched my actual work. I used the description after checking it because I wanted the PR to be clear and accurate.
 
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
-
-Add your answer here.
+The AI might include incorrect information, claim that tests passed when they did not, or mention changes I never made. This could confuse reviewers and reduce trust in my work. Therefore, I should always review AI-generated content before using it.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
+The PR should target my own fork because this is an internship practice assignment. It allows me to submit and demonstrate my work without directly changing the shared upstream repository. The project maintainers can review my work safely before deciding whether to accept it.
 
 ---
 
 # Task 7 — Map the Workflow to the Agentic Loop
 
 ## Goal
-
 Explain this assignment's workflow using the same Gather → Analyze → Human Act → Verify structure from Week 3.
 
 ### Notes
